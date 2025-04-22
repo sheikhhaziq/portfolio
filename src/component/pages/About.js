@@ -27,7 +27,7 @@ function About() {
                         <div className="mt-4">
                             <div className="flex flex-col md:flex-row lg:flex-row about_content py-4">
                                 <div className="w-full">
-                                    <p className="py-2 w-max">Name: <span>Sheikh haziq</span></p>
+                                    <p className="py-2 w-max">Name: <span>Sheikh Haziq</span></p>
                                     <p className="py-2 w-max">Age: <span>24</span></p>
                                 </div>
                                 <div className="w-[100%]">

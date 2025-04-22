@@ -13,9 +13,9 @@ function Project() {
         <div className="absolute z-20 bg-black w-screen h-screen">
             <div className="w-[95%] m-auto mt-[50px] pt-[100px] h-screen ">
                 <div className="text-center mb-[70px]">
-                    <h1 className="text-[46px] mb-[37px] font-bold">Project</h1>
+                    <h1 className="text-[46px] mb-[37px] font-bold">Projects</h1>
 
-                    <ProjectCard  img={gyawun}  heading={"Gyawun Music app"} para={text2}  website={"https://gyawunmusic.vercel.app"} github={"https://github.com/jhelumcorp/gyawun"} rev={"md:flex-row-reverse"}/>
+                    <ProjectCard  img={gyawun}  heading={"Gyawun Music App"} para={text2}  website={"https://gyawunmusic.vercel.app"} github={"https://github.com/jhelumcorp/gyawun"} rev={"md:flex-row-reverse"}/>
                     <ProjectCard img={gyawun} heading={"Key Warden"} para={text1}  github={"https://github.com/jhelumcorp/keywarden"} rev={"md:flex-row"}/>
                      </div>
 
