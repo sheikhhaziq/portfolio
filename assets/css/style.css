@@ -364,8 +364,12 @@ body {
 
 .abs-img,
 .abs-icon { display: none; }
-
-.about { padding-block-start: 120px; }
+.about .header{
+    max-width: 1050px;
+    margin-inline: auto;
+  
+}
+.about { padding-block-start: 20px; }
 
 .about-banner {
   background-color: var(--independence);
@@ -478,6 +482,38 @@ body {
   border-radius: inherit;
 }
 
+
+
+.certificates .section-title { margin-block-end: 20px; }
+.certificates .card-subtitle span{
+  display: inline-block;
+  color: var(--glaucous);
+}
+.certificates .card-content{
+  display: grid;
+  gap: 8px;
+}
+.certificates .section-text { margin-block-end: 70px; }
+
+.certificates ul{
+  display: grid;
+  gap: 16px;
+}
+.certificate-card .btn-primary{
+  background-color: var(--orange-soda);
+  display: inline-block;
+  padding:7px 30px;
+  border-radius: 20px;
+}
+
+.certificate-card {
+  padding: 16px;
+  border-radius: 8px;
+  background-color: var(--independence);
+}
+/* .certificate-card{
+  border-left: 5px solid  var(--fiery-rose)
+} */
 
 
 
@@ -934,8 +970,7 @@ textarea.contact-input {
    * ABOUT
    */
 
-  .about { padding-block: 180px; }
-
+  .about { padding-block: 20px; }
   .about .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
